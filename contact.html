@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header_footer">
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <h3 class="black-border">Contact</h3>
+        <ul class="list">
+            <li>Email: voorbeeld@voorbeeld.nl</li>
+            <li>Telefoon: 030-1234567</li>
+        </ul>
+        <p class="paragraph">Mocht je vragen hebben, stuur mij dan een bericht via onderstaand contactformulier:</p>
+        <form class="paragraph" name="contact" method="POST" data-netlify="true">
+            <label for="fname">Voornaam:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Achternaam:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <textarea name="Jouw vraag:" rows="1" cols="50" wrap="physical" id="comment_text_area"></textarea><br><br>
+            <input type="submit" name="Verzenden">
+        </form>
+    </main>
+</body>
+
+</html>
